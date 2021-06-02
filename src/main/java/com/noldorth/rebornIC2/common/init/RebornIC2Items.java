@@ -13,8 +13,4 @@ public class RebornIC2Items {
 
     public static final RegistryObject<Item> INGOT_COPPER = ITEMS.register("ingot_copper",() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
-    //public static final
-    //public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore_item",() -> new Item(new Item.Properties()));
-
-
 }

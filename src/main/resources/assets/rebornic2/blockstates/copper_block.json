@@ -1,7 +1,7 @@
 {
   "variants" : {
     "": {
-      "model": "rebornic2:copper_block"
+      "model": "rebornic2:block/copper_block"
     }
   }
 }

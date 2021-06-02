@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 public class RebornIC2Blocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RebornIC2.MODID);
 
-    //public static final RegistryObject<Block> COPPER_ORE = createBlock("copper_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3f, 15).harvestTool(ToolType.PICKAXE).harvestLevel(2).setRequiresTool()));
+    public static final RegistryObject<Block> COPPER_ORE = createBlock("copper_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3f, 15).harvestTool(ToolType.PICKAXE).harvestLevel(2).setRequiresTool()));
 
     public static final RegistryObject<Block> COPPER_BLOCK = createBlock("copper_block", () -> new Block (AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3f, 15).harvestTool(ToolType.PICKAXE).harvestLevel(1).setRequiresTool()));
 
