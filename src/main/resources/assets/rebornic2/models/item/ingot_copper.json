@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rebornIC2:item/copper_ingot"
+    "layer0": "rebornic2:item/ingot_copper"
   }
 }
