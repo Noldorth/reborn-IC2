@@ -1,5 +1,5 @@
 {
-  "item.ingot_copper.name": "Copper ingot",
+  "item.rebornic2.copper_ingot.name": "Copper ingot",
   "block.rebornic2.copper_ore" : "Copper ore",
   "block.rebornic2.copper_block" : "Copper block"
 }

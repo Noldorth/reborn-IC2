@@ -11,6 +11,14 @@ public class RebornIC2Items {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RebornIC2.MODID);
 
-    public static final RegistryObject<Item> INGOT_COPPER = ITEMS.register("ingot_copper",() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    //INGOT ITEM
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+
+    //DUST ITEM
+
+    //URANIUM GEM
 
 }
